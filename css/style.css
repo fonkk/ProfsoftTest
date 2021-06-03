@@ -1,0 +1,95 @@
+@font-face {
+	font-family: 'Gilroy-Medium';
+	src: url('../fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+h2{
+    font-family: "Gilroy-Bold";
+}
+*{
+    font-family: "Gilroy-Medium";
+}
+
+
+#task1{
+    width: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+#task1_select{
+    width: 170px; 
+    height: 36px;
+    border-radius: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+#task1_button{
+    background:rgb(116, 130, 155);
+    border: none;
+    width: 180px;
+    height: 36px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+#task1_button:hover{
+    background:rgb(120, 167, 131);
+}
+
+
+
+#task2{
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    margin-left: 40px;
+}
+
+.same_buttons{
+    background:rgb(116, 130, 155);
+    border: none;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 36px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+.same_buttons:hover{
+    background:rgb(120, 167, 131);
+}
+
+#task3{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin-left: 40px;
+}
+
+
+
+
+#task4{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin-left: 40px;
+}
